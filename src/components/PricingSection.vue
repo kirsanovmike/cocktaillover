@@ -81,6 +81,10 @@
                     <div class="text-h4 mt-6 blue--text">1.99$/week</div>
                   </v-card-text>
                 </div>
+                <v-divider
+                  class="mx-4"
+                  v-if="!this.$vuetify.breakpoint.smAndUp"
+                ></v-divider>
               </v-col>
               <v-col class="col-12 col-sm-3 col-md-3">
                 <div class="flex-center">
@@ -115,6 +119,10 @@
                     <div class="text-h4 mt-6 blue--text">3.99$/month</div>
                   </v-card-text>
                 </div>
+                <v-divider
+                  class="mx-4"
+                  v-if="!this.$vuetify.breakpoint.smAndUp"
+                ></v-divider>
               </v-col>
               <v-col class="col-12 col-sm-3 col-md-3">
                 <div class="flex-center">
